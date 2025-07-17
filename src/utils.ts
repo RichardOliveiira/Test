@@ -17,7 +17,7 @@ export async function isRepoAccessible(url: string): Promise<boolean> {
         'Accept': 'application/vnd.github+json'
       }
     });
-
+    //NOVO ARQUIVO ====================================================>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
     return response.status === 200;
   } catch (err: any) {
     console.error('[isRepoAccessible] Erro ao verificar repositório:', err.message);
